@@ -1,0 +1,255 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F3ED;
+    color: #29243D;
+    line-height: 1.7;
+}
+
+.navbar-custom {
+    background-color: #29243D;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #E8DFF5 !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #BDA9E2 !important;
+}
+
+
+.hero {
+    background: linear-gradient(135deg, #29243D, #75618F);
+    color: white;
+    padding: 110px 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero-text {
+    font-size: 25px;
+    color: #E8DFF5;
+}
+
+.hero-description {
+    max-width: 650px;
+    margin: 20px auto 30px;
+    font-size: 17px;
+}
+
+.etiqueta {
+    display: inline-block;
+    background-color: #BDA9E2;
+    color: #29243D;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.encabezado-pagina {
+    background: linear-gradient(135deg, #E8DFF5, #C8B7E8);
+    padding: 85px 20px;
+}
+
+.encabezado-pagina h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 18px 0;
+}
+
+.encabezado-pagina p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.seccion {
+    padding-top: 65px;
+    padding-bottom: 25px;
+}
+
+.seccion h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #51416F;
+}
+
+.texto-seccion {
+    max-width: 850px;
+    margin: 15px auto;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.tarjeta {
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 0 5px 20px rgba(41, 36, 61, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 25px rgba(41, 36, 61, 0.15);
+}
+
+.tarjeta h3 {
+    color: #75618F;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tarjeta p {
+    color: #625B6B;
+}
+
+.btn-principal {
+    background-color: #BDA9E2;
+    color: #29243D;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-principal:hover {
+    background-color: #E8DFF5;
+    color: #29243D;
+    transform: scale(1.04);
+}
+
+.btn-secundario {
+    background-color: #75618F;
+    color: white;
+    border-radius: 25px;
+    padding: 9px 18px;
+}
+
+.btn-secundario:hover {
+    background-color: #51416F;
+    color: white;
+}
+
+.lista-consecuencias {
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 25px 45px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.lista-consecuencias li {
+    padding: 7px 0;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: #E8DFF5;
+    color: #29243D;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #BDA9E2;
+    color: #29243D;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.mensaje-final {
+    background-color: #E8DFF5;
+    color: #29243D;
+    border: none;
+    border-radius: 18px;
+    padding: 35px 25px;
+}
+
+.mensaje-final h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.reflexion {
+    background-color: #E8DFF5;
+    border-radius: 20px;
+    padding: 45px 25px;
+    margin-top: 40px;
+}
+
+.frase {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #75618F;
+    margin: 25px auto;
+    max-width: 650px;
+}
+
+.footer {
+    background-color: #29243D;
+    color: #E8DFF5;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 70px;
+}
+
+.footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+.footer h4 {
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer small {
+    font-size: 12px;
+}
+
+.footer hr {
+    border-color: #BDA9E2;
+    margin: 15px auto;
+    width: 60%;
+}
+
+.foster span {
+    font-size: 12px;
+    color: #BDA9E2;
+}
